@@ -34,9 +34,10 @@ const users = [
   function ContactList() {
       return (
         <ul>
-            {users.map( members => ( <Contact name={members.name} avatar={members.avatar} status={members.status} />)
-            
-            )}
+            {users.map( members => 
+                ( <Contact name={members.name} avatar={members.avatar} status={members.status} />)
+                )
+            }
         </ul>
       )
   }
