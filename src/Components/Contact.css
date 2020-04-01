@@ -41,9 +41,12 @@
   
   .Contact .status .status-online {
     background: #aed581;
-    margin-bottom: 0px;
   }
   
   .Contact .status .status-offline {
     background: #f4511e;
+  }
+
+  .status {
+    text-align: start;
   }
