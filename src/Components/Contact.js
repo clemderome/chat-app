@@ -6,7 +6,6 @@ const user = {
  name : 'Joshua Daniels',
  status : true
 }
-const status = user.status ? 'online' : 'offline';
 
 const Contact = () => {
   return (
@@ -17,7 +16,7 @@ const Contact = () => {
       <div className="status"> 
           <h4 className="name" src={user.name}>{user.name}</h4>
         <div className="status">
-          <div className="status" src={status}>
+          <div className="status" src={user.status}>
             {user.status ? <span className="status-online"></span> : <span className="status-offline"></span>} {user.status ? 'Online' : 'Offline'}</div>
           </div>
       </div>
